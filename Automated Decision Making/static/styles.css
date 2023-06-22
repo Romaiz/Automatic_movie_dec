@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Change background color */
+body {
+  background-color: #DFF5F8;
+}
+
+/* Center the form vertically and horizontally */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Updated: Align items to the top */
+  height: 100vh;
+  margin-top: 20px; /* Updated: Reduce top margin */
+}
+
+/* Style the h1 heading */
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style the labels */
+label {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Style the select dropdown */
+select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Style the input text field */
+input[type="text"] {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4285F4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change the submit button color on hover */
+input[type="submit"]:hover {
+  background-color: #3367D6;
+}
